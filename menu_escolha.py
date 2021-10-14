@@ -7,7 +7,7 @@ if opcao == 1:
       nome.append(nomes)
     print(nome)
 #remover elemento
-elif opcao == 2:
- delt = int(input("insira um indece que queira deletar: "))
+if opcao == 2:
+ delt = int(input("insira um indice que queira deletar: "))
 nome.pop(delt)
 print(nome)
