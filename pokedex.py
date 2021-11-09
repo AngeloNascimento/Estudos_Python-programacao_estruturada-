@@ -3,14 +3,14 @@ pokedex = ["Bulbassauro", "Charmander", "Charizard", "Pikachu","Raichu"]
 nomepok = 0
 
 while True:
-  
+  sleep(1)
   main = input("Selecione uma opção \n[1]-Adicionar Pokemon \n[2]-Remover Pokemon \n[3]-Exibir Pokemon \n[4]-Buscar Pokemons \n[5]-Sair: ") 
   if main.isdigit()==True:#verifica se a opção esta entre 1 e 5.   
      if main > "5" or main < "1":
       print("Opção invalida! Escolha somente as opçoes no menu.")#caso a opção não esteja entre 1 e 5 imprime a menssagem e retorna ao menu. 
   elif main.isdigit() == False:#Faz a verificação se é numero ou letra.
     print("Opçao invalida! Digite somente opções numericas!")#caso seja letra imprime essa mensagem e retorna ao menu.
-    sleep(2)
+   
 #Menu Adicionar pokemon
 
   if main == "1":
