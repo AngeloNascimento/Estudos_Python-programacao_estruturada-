@@ -31,7 +31,7 @@ def titulo(txt):
     print("-"*30)
 
 
-
+#Conversor
 while True:
     sleep(2)
     try: 
@@ -53,8 +53,9 @@ while True:
             fahrenheitC(converter1)
             kelvinc(converter1)
         except (ValueError, TypeError):
-            print("Digite somente numeros!")
-            continue  
+            print("Digite somente numeros!")                      
+            continue
+         
 
     elif opcao == 2:
         titulo("Conversão Kelvin")
@@ -80,6 +81,10 @@ while True:
         print("Finalizando programa...")
         sleep(2)
         break
+   
+    elif opcao > 4 or opcao < 1 :
+        print("Digite somente as opçoes do menu!")
+        continue
 
     
     
