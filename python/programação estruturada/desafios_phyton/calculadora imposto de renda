@@ -1,0 +1,4 @@
+Criar um fluxograma e codificar em python o seguinte problema:
+
+Solicitar o salário bruto do usuário  e com base na tabela de imposto de renda vigente informar ao final qual aliquota esse usuário se enquadra e qual o salário líquido do mesmo. Colocar condição de saída do programa.
+O fluxograma deve ser entregue em pdf e o código em python.
